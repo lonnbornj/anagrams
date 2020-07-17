@@ -1,10 +1,17 @@
 # anagrams
 
-Solves the nine-letter-word block puzzle in The Age. Returns all anagrams of a sequence of letters and its subsequences.
+Solves the nine-letter-word block puzzle. Returns all anagrams of a sequence of letters and its subsequences.
+
+Requires the natural language toolkit (nltk) and Brown corpus:
+
+~~~ python
+import nltk
+nltk.download('brown')
+~~~
 
 E.g.
 
-| I | T | E |
+|<span style="font-weight:normal"> I | T | E <span>|
 |:-:|:-:|:-:|
 | L | T | N |
 | R | E | G |
